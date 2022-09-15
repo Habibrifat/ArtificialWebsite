@@ -7,7 +7,7 @@ const Header = () => {
       <Navbar />
       <div className="container">
         <div className="header-content">
-          <h1 className="header-title">Artificial ontology world .</h1>
+          <h1 className="header-title">Artificial ontology world</h1>
           <p className="header-desc">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae,
             suscipit facilis illum natus iure aliquam assumenda, omnis vitae
