@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import { FaTwitter, FaSkype, FaVimeoV, FaFacebookF } from "react-icons/fa";
+import { FaTwitter, FaSkype, FaFacebookF } from "react-icons/fa";
 import { IoMdRocket } from "react-icons/io";
 import "./navbar.css";
 

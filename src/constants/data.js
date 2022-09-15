@@ -1,18 +1,7 @@
 import images from "./images";
-import {
-  FaPaperPlane,
-  FaEdit,
-  FaRocket,
-  FaShoppingCart,
-  FaFileAlt,
-  FaPhoneAlt,
-  FaEnvelopeOpen,
-  FaMapMarkerAlt,
-  FaPhoneVolume,
-} from "react-icons/fa";
-import { BiDollarCircle } from "react-icons/bi";
-import { ImMagicWand } from "react-icons/im";
-import { AiOutlineReload, AiFillDatabase } from "react-icons/ai";
+import { FaPhoneVolume } from "react-icons/fa";
+
+import { AiFillDatabase } from "react-icons/ai";
 import {
   GiRobotGolem,
   GiMachineGunMagazine,
