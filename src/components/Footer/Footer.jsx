@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid footer-content text-center">
           <p className="text speech">Freedom or Death by Emmeline Pankhurst.</p>
           <span className="text">
-            &copy; {date.getFullYear().toString()} DigitalWorld. Theme
+            &copy; {date.getFullYear().toString()} OntologyLTD.
           </span>
         </div>
       </div>

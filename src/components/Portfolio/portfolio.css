@@ -8,6 +8,11 @@
 .portfolio .item * {
   z-index: 1;
 }
+.portfolioImage {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .portfolio .item::after {
   content: "";
   position: absolute;

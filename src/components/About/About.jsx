@@ -1,5 +1,6 @@
 import images from "./../../constants/images";
 import "./about.css";
+import sections from "./../../constants/data";
 
 const About = () => {
   return (
@@ -13,20 +14,30 @@ const About = () => {
             <div className="section-t">
               <h3>About Us</h3>
             </div>
+            <div className="paragraph">
+              {sections.about.map((text) => {
+                return (
+                  <p className="text" key={text.id}>
+                    {text.text}
+                  </p>
+                );
+              })}
+            </div>
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
-              porro fugiat odio aut beatae deserunt eligendi vel dolorum
-              reiciendis numquam esse alias unde pariatur eius amet vero eos
-              officia quam dicta excepturi similique, hic voluptatibus vitae!
-              Adipisci odio mollitia voluptatibus assumenda natus, aspernatur
-              quod quasi? Veniam ipsa amet ex cupiditate recusandae ipsum
-              nesciunt sequi eveniet? Porro aperiam perferendis beatae ratione?
+              {/* Artificial intelligence (AI), the ability of a digital computer or
+              computer-controlled robot to perform tasks commonly associated
+              with intelligent beings. The term is frequently applied to the
+              project of developing systems endowed with the intellectual
+              processes characteristic of humans, such as the ability to reason,
+              discover meaning, generalize, or learn from past experience. */}
             </p>
+            <br />
             <p className="text">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt
-              itaque modi at ipsum nisi accusantium repellat, nesciunt
-              voluptates obcaecati voluptatum nam. Et debitis amet ea libero
-              rerum perferendis cum quasi!
+              {/* An ontology is a set of concepts and categories in a subject area
+              or domain that possesses the properties and relations between
+              them. Ontological Modeling can help the cognitive AI or machine
+              learning model by broadening its' scope. They can include any data
+              type or variation and set each diver data to a specific task */}
             </p>
           </div>
         </div>

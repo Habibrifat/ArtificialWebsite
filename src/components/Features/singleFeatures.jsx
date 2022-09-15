@@ -6,7 +6,7 @@ const SingleFeatures = (feature) => {
   const gradient = "url(#blue-gradient)";
 
   return (
-    <div className="item" key={feature.id}>
+    <div className="item " key={feature.id}>
       <div
         className={`item-head flex flex-between bg-dark ${
           isActive ? "item-head-border" : null

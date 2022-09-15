@@ -5,8 +5,9 @@ import sections from "./../../constants/data";
 const Testimonials = () => {
   const gradient = "url(#blue-gradient)";
 
+  let startList;
   const showRating = (startCount) => {
-    let startList = new Array(startCount);
+    startList = new Array(startCount);
     for (let i = 0; i < startList.length; i++) {
       startList[i] = <MdStar size={25} style={{ fill: gradient }} />;
     }
@@ -38,7 +39,7 @@ const Testimonials = () => {
                   <h4 className="item-name">{testimonial.name}</h4>
                   <p className="item-text text">{testimonial.text}</p>
                   <ul className="item-rating flex flex-center">
-                    {showRating().map((start, index) => {
+                    {startList.map((start, index) => {
                       return <li key={index}>{start}</li>;
                     })}
                   </ul>

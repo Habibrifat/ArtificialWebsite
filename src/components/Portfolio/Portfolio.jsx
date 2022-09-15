@@ -19,10 +19,13 @@ const Portfolio = () => {
             {sections.portfolio.map((portfolio) => {
               return (
                 <div
-                  className="item flex flex-center flex-column translate-effect"
+                  className="item flex flex-center flex-column translate-effect portfolioImage"
                   key={portfolio.id}
                   style={{
                     background: `url(${portfolio.image})`,
+                    backgroundSize: "cover",
+                    backgroundRepeat: "no-repeat",
+                    backgroundPosition: "center",
                   }}
                 >
                   <div className="item-title fs-25 fw-6">{portfolio.title}</div>

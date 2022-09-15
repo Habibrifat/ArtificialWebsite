@@ -23,7 +23,7 @@ const Qualities = () => {
                       {quality.icon}
                     </div>
                     <div className="item-text">
-                      <h3 className="item-title fs-25">Ideas & Plans</h3>
+                      <h3 className="item-title fs-25">{quality.title}</h3>
                       <p className="text">{quality.text}</p>
                     </div>
                   </div>
