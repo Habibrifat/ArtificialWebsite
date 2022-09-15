@@ -22,7 +22,6 @@
   flex-direction: column;
   text-align: center;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
 }
 .header-title {
   font-size: 50px;
@@ -42,6 +41,7 @@
   line-height: 1.4;
   font-weight: 500;
   color: var(--clr-grey);
+  -webkit-text-fill-color: transparent;
 }
 .header-btn {
   align-self: center !important;
@@ -51,4 +51,7 @@
 }
 .header-content .header-desc {
   margin: 3.2rem 0 4.9rem 0;
+}
+.header span {
+  color: #08506a;
 }
