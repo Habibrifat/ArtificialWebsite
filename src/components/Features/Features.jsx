@@ -4,7 +4,7 @@ import "./features.css";
 
 const Features = () => {
   return (
-    <sections className="features section-p bg-black" id="features">
+    <sections className="features section-p" id="features">
       <div className="container">
         <div className="features-content">
           <div className="item-list text-white">

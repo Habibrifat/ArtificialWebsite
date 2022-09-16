@@ -1,12 +1,15 @@
 .about {
-  background-color: var(--clr-black);
+  /* background-color: var(--clr-black); */
+  background-color: #c4c7db;
   padding: 10rem 0;
 }
 .about-content {
   row-gap: 40px;
   text-align: center;
 }
-
+.paragraph .text {
+  color: #392929;
+}
 @media screen and (min-width: 768px) {
   .about-content {
     text-align: left;

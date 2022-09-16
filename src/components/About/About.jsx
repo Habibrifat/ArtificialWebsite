@@ -4,8 +4,8 @@ import sections from "./../../constants/data";
 
 const About = () => {
   return (
-    <div className="about" id="about">
-      <div className="container">
+    <section className="about" id="about">
+      <div className="container ">
         <div className="about-content grid">
           <div className="content-left">
             <img src={images.about_main_img} alt="" />
@@ -42,7 +42,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

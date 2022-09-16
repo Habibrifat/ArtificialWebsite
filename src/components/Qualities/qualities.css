@@ -1,3 +1,9 @@
+.qualities {
+  background-color: rgba(245, 241, 235, 0.884);
+}
+.qualities p {
+  color: #110f0fe8;
+}
 .qualities .section-t {
   margin-bottom: 30px;
 }

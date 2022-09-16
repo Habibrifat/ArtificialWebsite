@@ -1,3 +1,6 @@
+.services {
+  margin-bottom: 25px;
+}
 .services .item {
   padding: 40px;
   cursor: pointer;

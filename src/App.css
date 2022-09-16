@@ -3,7 +3,7 @@
 
 /* variables  */
 :root {
-  --fnt-base: "Jost", sans-serif;
+  --fnt-base: "Lora", sans-serif;
   --clr-robin-blue: #5764de;
   --clr-crazy-blue: #55b3d5;
   --clr-black: #000;
@@ -306,7 +306,8 @@ select {
 }
 .section-t {
   font-size: 44px;
-  color: var(--clr-white);
+  /* color: var(--clr-white); */
+  color: #130c0c;
   padding: 20px 0;
   position: relative;
   line-height: 1.2;

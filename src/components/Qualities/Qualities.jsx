@@ -4,7 +4,7 @@ import images from "./../../constants/images";
 
 const Qualities = () => {
   return (
-    <div className="qualities section-p bg-md-black">
+    <div className="qualities section-p">
       <div className="container">
         <div className="qualities-content grid">
           <div className="content-left">
