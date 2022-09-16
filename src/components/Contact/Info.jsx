@@ -4,7 +4,7 @@ import "./contact.css";
 
 const Info = () => {
   return (
-    <div className="info bg-md-black section-p">
+    <div className="info section-p">
       <div className="container">
         <div className="info-content">
           <div className="item-list grid text-center">

@@ -4,7 +4,7 @@ import sections from "../../constants/data";
 
 const Portfolio = () => {
   return (
-    <section className="portfolio section-p bg-dark" id="portfolio">
+    <section className="portfolio section-p" id="portfolio">
       <div className="container">
         <div className="portfolio-content">
           <div className="section-t text-center">

@@ -14,7 +14,7 @@ const Testimonials = () => {
     return startList;
   };
   return (
-    <section className="testimonials section-p bg-black" id="testimonials">
+    <section className="testimonials section-p " id="testimonials">
       <div className="container">
         <div className="testimonials-content">
           <div className="section-t test-center">

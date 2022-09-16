@@ -1,3 +1,9 @@
+.contact {
+  background-color: #191919;
+}
+.contact h3 {
+  color: white;
+}
 .contact .contact-content {
   row-gap: 60px;
 }
@@ -46,6 +52,7 @@
 }
 .info {
   margin-top: -10px;
+  background-color: white;
 }
 .info .item {
   padding: 40px;
